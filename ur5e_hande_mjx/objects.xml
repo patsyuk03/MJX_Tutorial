@@ -1,0 +1,17 @@
+<mujoco>
+
+    <body name="target" pos="-0.3 0 1" quat="0 0.70711 0.70711 0">
+        <geom name="target" pos="0 0 0" rgba="0 0.6 0 1" size="0.01 0.01 0.01" type="box" margin="0"/>
+        <site name="frame_x" size="0.005" type="box" fromto="0 0 0  0.1 0 0" rgba="1 0 0 1" group="1"/>
+        <site name="frame_y" size="0.005" type="box" fromto="0 0 0  0 0.1 0" rgba="0 1 0 1" group="1"/> 
+        <site name="frame_z" size="0.005" type="box" fromto="0 0 0  0 0 0.1" rgba="0 0 1 1" group="1"/>
+    </body>
+
+    <!-- <body name="obstacle_0" pos="-0.1 0.1 0.9">
+        <geom name="obstacle_0" pos="0 0 0" rgba="0.8 0 0 1" size="0.05" type="sphere" />
+    </body>
+    <body name="obstacle_1" pos="-0.1 -0.2 0.7">
+        <geom name="obstacle_1" pos="0 0 0" rgba="0.8 0 0 1" size="0.03" type="sphere" />
+    </body> -->
+    
+</mujoco>
